@@ -1,0 +1,28 @@
+{
+    "name": "vip-project",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview",
+      "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+    },
+    "dependencies": {
+      "boxicons": "^2.1.4",
+      "emailjs-com": "^3.2.0",
+      "moment": "^2.29.4",
+      "sass": "^1.62.1",
+      "vue": "^3.2.47",
+      "vue-router": "^4.1.6"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^4.0.0",
+      "eslint": "^8.34.0",
+      "eslint-plugin-vue": "^9.9.0",
+      "node-sass": "^8.0.0",
+      "sass-loader": "^13.2.2",
+      "scss": "^0.2.4",
+      "vite": "^4.1.4"
+    }
+  }
